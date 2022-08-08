@@ -38,6 +38,6 @@ jobs:
         with:
           app-name: 'claroreg-mcce-v2-pruebas'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7845507E5B0C428B8149DDDAA1C57CBE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_6DAF12E4575542BFA0C35E325CDEAC92 }}
           package: '${{ env.PACKAGE_DIRECTORY }}'
           respect-pom-xml: true
